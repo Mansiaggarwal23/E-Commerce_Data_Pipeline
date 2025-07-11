@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Data Pipeline
 
-This project demonstrates a complete data engineering pipeline for an e-commerce business, integrating **Apache Airflow**, **DBT**, and **Snowflake** to automate the flow of data from raw CSVs to analytical models. It includes data orchestration, transformation, monitoring, and a foundation for business insights.
+This project demonstrates a complete data engineering pipeline for an e-commerce business in order to track the orders, integrating **Apache Airflow**, **DBT**, and **Snowflake** to automate the flow of data from raw CSVs to analytical models. It includes data orchestration, transformation, monitoring, and a foundation for business insights.
 
 ---
 
