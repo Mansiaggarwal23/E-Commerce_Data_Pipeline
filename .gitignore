@@ -1,0 +1,63 @@
+# ----------------------
+# Python
+# ----------------------
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+.env/
+airflow_venv/
+
+# Environment variables
+.env
+.env.*
+
+# ----------------------
+# Airflow
+# ----------------------
+logs/
+*.log
+airflow.db
+unittest.cfg
+webserver_config.py
+# SQLite used by default in local
+sqlite.db
+
+# ----------------------
+# DBT
+# ----------------------
+dbt_modules/
+dbt_packages/
+target/
+
+# ----------------------
+# macOS
+# ----------------------
+.DS_Store
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+.history/
+*.code-workspace
+
+# ----------------------
+# Git
+# ----------------------
+*.swp
+*~
+*.bak
+*.tmp
+*.orig
+
+# ----------------------
+# Others
+# ----------------------
+# Secret or auth files
+secrets.*
+standalone_admin_password.txt
