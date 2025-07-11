@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🛒 E-Commerce Data Pipeline
 
 This project demonstrates a complete data engineering pipeline for an e-commerce business, integrating **Apache Airflow**, **DBT**, and **Snowflake** to automate the flow of data from raw CSVs to analytical models. It includes data orchestration, transformation, monitoring, and a foundation for business insights.
@@ -26,50 +23,6 @@ Located in `dbt_ecommerce/`:
 ### 🔹 3. Dummy Data Creation
 In `dummy_data_creation/`:
 - Jupyter notebook and CSVs for creating synthetic e-commerce data (`customers.csv`, `orders.csv`, `shipments.csv`)
-
----
-
-## 🗃️ Folder Structure
-
-```
-
-E-Commerce\_Data\_Pipeline/
-│
-├── airflow\_project/
-│   ├── airflow\.cfg
-│   ├── dags/
-│   │   ├── order\_monitor\_dag.py
-│   │   └── utils/
-│   │       ├── check\_delayed\_orders.py
-│   │       └── config/
-│   │           └── snowflake\_config.yaml  # Ignored from Git
-│   └── airflow\_venv/                      # Ignored from Git
-│
-├── dbt\_ecommerce/
-│   └── ecommerce/
-│       ├── dbt\_project.yml
-│       ├── models/
-│       │   ├── staging/
-│       │   │   ├── stg\_customers.sql
-│       │   │   ├── stg\_orders.sql
-│       │   │   └── stg\_shipments.sql
-│       │   └── marts/
-│       │       └── order\_status.sql
-│       ├── macros/
-│       ├── seeds/
-│       ├── snapshots/
-│       ├── analyses/
-│       └── tests/
-│
-├── dummy\_data\_creation/
-│   ├── dummy\_data\_creation.ipynb
-│   ├── customers.csv
-│   ├── orders.csv
-│   └── shipments.csv
-│
-└── .gitignore
-
-````
 
 ---
 
@@ -138,31 +91,9 @@ Make sure your `~/.dbt/profiles.yml` is configured with your Snowflake credentia
 
 ---
 
-## 📜 License
-
-This project is intended for educational and demonstration purposes only.
-
----
-
-## 🙌 Contributions
-
-Feel free to fork the repository, submit pull requests, or open issues for feature suggestions or bugs.
-
----
-
 ## 🔗 Useful Links
 
 * [Apache Airflow](https://airflow.apache.org/)
 * [DBT Documentation](https://docs.getdbt.com/)
 * [Snowflake Docs](https://docs.snowflake.com/)
 
-```
-
----
-
-Would you like:
-- A badge section (e.g., Python version, Airflow status)?
-- A live screenshot or flow diagram of your pipeline?
-
-Let me know and I’ll enhance this further!
-```
